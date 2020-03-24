@@ -1,0 +1,19 @@
+.vistas {
+  text-align: center;
+  color: white;
+
+}
+
+.tabla-vistas{
+  width: 100%;
+  background-color:blue;
+}
+
+.tabla-vistas th{
+  background-color: dodgerblue;
+  font-size: 20px;
+  padding-top: 5px;
+  height: 30px;
+}
+
+

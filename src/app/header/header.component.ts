@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  private logoPersonal = require('./assets/logo_auto.png');
-  private logoGithub = require('./assets/GitHub_Logo.png');
 
   constructor() { }
 

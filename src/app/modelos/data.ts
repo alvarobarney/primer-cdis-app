@@ -3,37 +3,37 @@ import { Automovil } from './models';
 export const AUTOMOVILES: Automovil[] = [
   {
     marca: 'Volkswagen',
-    modelo: 'Jetta',
-    color: 'Negro',
+    submarca: 'Jetta',
+    modelo: 2015,
     descripcion: 'Volkswagen Jetta Negro 2015',
-    year: 2015
+    fecha_registro: new Date('2020-03-14')
   },
   {
     marca: 'Ford',
-    modelo: 'Ranger',
-    color: 'Blanca',
+    submarca: 'Ranger',
+    modelo: 2000,
     descripcion: 'Ford Ranger Blanca 2000',
-    year: 2000
+    fecha_registro: new Date('2020-03-14')
   },
   {
     marca: 'Kia',
-    modelo: 'Forte',
-    color: 'Gris',
+    submarca: 'Forte',
+    modelo: 2017,
     descripcion: 'Kia Forte Gris 2017',
-    year: 2017
+    fecha_registro: new Date('2020-03-14')
   },
   {
     marca: 'Peugeot',
-    modelo: 'Rifter',
-    color: 'Azul',
-    descripcion: 'Peugeot Risfter Azul 2020',
-    year: 2020
+    submarca: 'Rifter',
+    modelo: 2020,
+    descripcion: 'Peugeot Rifter Azul 2020',
+    fecha_registro: new Date('2020-03-14')
   },
   {
     marca: 'Mazda',
-    modelo: 'Cx-5',
-    color: 'Rojo',
+    submarca: 'Cx-5',
+    modelo: 2020,
     descripcion: 'Mazda Cx-5 Rojo 2020',
-    year: 2020
+    fecha_registro: new Date('2020-03-14')
   }
 ];

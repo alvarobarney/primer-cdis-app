@@ -1,0 +1,23 @@
+<ng-template #avisoAuto let-modal>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Vehiculo seleccionado</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {{ autoSeleccionado.marca }} - {{ autoSeleccionado.submarca }} - {{ autoSeleccionado.modelo }}
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+<ng-container *ngFor='let auto of autos'>
+  <div class="lista">
+
+    <div class="eye" (click)="onSelect(auto, avisoAuto)"></div>
+    <div class="item">{{ auto.descripcion }}</div>
+  </div>
+</ng-container>
